@@ -1,0 +1,27 @@
+{
+  "hosting": {
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  },
+  "emulators": {
+    "auth": {
+      "port": null
+    },
+    "hosting": {
+      "port": null
+    },
+    "ui": {
+      "enabled": true
+    }
+  }
+}
